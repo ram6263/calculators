@@ -3,7 +3,7 @@ let buttons = document.querySelectorAll('.button');
 let inputs = document.querySelector('input');
 Array.from(buttons).forEach((button) => {
     button.addEventListener('click', (e) => {
-        if (e.target.innerHTML=='A') {
+        if (e.target.innerHTML=='=') {
             string=eval(string);
             inputs.value=string
         }
